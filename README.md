@@ -105,12 +105,12 @@ If any of these links are broken, please let me know by opening an issue or a pu
 
 </div>
 
-6. When finished, the device should shut down.
-7. Remove the USB.
-8. Turn the NAS back on.
-9. The device should now boot back up and be ready to be reconfigured.
+9. When finished, the device should shut down.
+10. Remove the USB.
+11. Turn the NAS back on.
+12. The device should now boot back up and be ready to be reconfigured.
 
-> [NOTE] On rackmount versions, you can plug in a screen and see the Kernel start, but you will get no confirmation whether the flashback was a success. 
+> [!NOTE] On rackmount versions, you can plug in a screen and see the Kernel start, but you will get no confirmation whether the flashback was a success. 
 > Three possibilities: 
 > A. The pendrive is not recognized, the unit will attempt a normal boot and hang. -> Make sure the pendrive is in the correct USB socket, try another socket.
 > B. The pendrive is recognized, you will see GRUB booting the pendrive, if your drive has a LED it will flash as the copying is done, the unit will then, (without any message on VGA display) shut down. Restart the unit, if it hangs again, the pendrive used is not OK for this purpose. -> Try a different pendrive!
@@ -152,7 +152,7 @@ USB-DRIVE:.
 > 4. Use rufus to write the *.img file to the pendrive.
 > 5. Congrats, you have achieved what the Lenovo app couldn't, and made a correctly functioning flashback drive.
 > 6. Reverse the permissions change and delete the LifeLineImager folder.
-> 7. GOTO Line 98 and continue the process with a now functional pendrive.
+> 7. Continue from Step 6 of the flashing guide.
 >
 
 ## Background Information
